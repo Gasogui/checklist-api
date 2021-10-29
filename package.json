@@ -4,11 +4,14 @@
   "description": "Task Manager",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "GLgarcia | Guillermo Garcia Soto",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
